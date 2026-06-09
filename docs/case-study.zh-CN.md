@@ -1,5 +1,7 @@
 # Windows 电脑重启后内存占用异常高：一次 AlibabaProtect / AliPaladin 排查实录
 
+[English](case-study.en.md) | 中文
+
 ## 概述
 
 这篇文档记录了一次真实的 Windows 内存异常排查过程。
@@ -278,11 +280,6 @@ Get-WinEvent -FilterHashtable @{LogName='System'; ProviderName='Service Control 
 - 装过阿里系桌面客户端后出现顽固后台的人
 - 排查内核池异常占用的运维或开发者
 
-## 许可建议
+## 许可证
 
-如果准备开源分享，建议采用：
-
-- `MIT License`
-- 或 `CC BY 4.0`
-
-如果是写成经验帖或博客，`CC BY 4.0` 会更合适；如果打算把排查脚本也一起开源，`MIT` 会更方便。
+本仓库文档以 `CC BY 4.0` 方式共享，详情见 [`../LICENSE`](../LICENSE)。
